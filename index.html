@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tree Star</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/star-rotate.css">
+    <!-- Script -->
+    <script src="javascript/star-rotate.js"></script>
+</head>
+
+<body>
+    <!-- Painel de controle -->
+    <div class="cp">
+        <div>
+            <label for="rangeSpeed" id="labelRangeSpeed">Delay</label>
+            <input type="range" id="rangeSpeed" max="50" min="1" step="1">
+        </div>
+        <div>
+            <label for="degPMinute" id="labelRangeSpeed">Graus/ms</label>
+            <select id="degPMinute">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="8">8</option>
+                <option value="16">16</option>
+                <option value="32">32</option>
+                <option value="64">64</option>
+            </select>
+        </div>
+        <div>
+            <label for="rangeColor">Preenchimento</label>
+            <input type="range" id="rangeColor" max="1" min="0" value="1" step="1">
+        </div>
+        <div>
+            <label for="codeColor">Cor de preenchemento</label>
+            <input type="color" id="codeColor" value="#def113">
+        </div>
+    </div>
+    <!-- Display  -->
+    <h3 class="display">
+        0º/0ms
+    </h3>
+    <h3 class="display">
+        0 graus
+    </h3>
+    <h3 class="display">
+        0/0 partes
+    </h3>
+    <!-- Container de estrelas -->
+    <div class="content-tree-star">
+        <!-- CADA ESTRELA É UM SVG! -->
+        <!-- Pode duplica-los quantas vezes quiser todos funcionarão -->
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+        <svg version="1.1" class="star" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 501.28 501.28" style="enable-background:new 0 0 501.28 501.28;" xml:space="preserve">
+            <g>
+                <polygon style="fill:#FFCD00;" points="501.28,194.37 335.26,159.33 250.64,12.27 250.64,419.77 405.54,489.01 387.56,320.29 	"
+                />
+                <polygon style="fill:#FFDA44;" points="166.02,159.33 0,194.37 113.72,320.29 95.74,489.01 250.64,419.77 250.64,12.27 	" />
+            </g>
+        </svg>
+    </div>
+</body>
+
+</html>

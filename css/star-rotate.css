@@ -1,0 +1,17 @@
+.content-tree-star{
+    /* Alinha a <div> horizontalmente */
+    width: 80%;
+    margin: auto;
+    /* --------------------------- */
+    /* Alinha a <div> verticalmente */
+    position: relative;
+    top: 10%;
+    /* ---------------------------- */
+    /* Posiciona as estrelas lado a lado */
+    display: flex;
+}
+
+svg{
+    width: 33.333%;
+    transition-duration: 0.4s;
+}
