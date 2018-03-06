@@ -1,3 +1,5 @@
+/* DOMContentLoaded evento o qual é disparado quando o HTML tiver carregado */
+/* Isso permite que o script seja linkado na HEAD */
 document.addEventListener("DOMContentLoaded", function() {
   /* ---- Carrega os controladores por ID ---- */
   let speedRotateCtl = document.querySelector("#rangeSpeed");
@@ -92,4 +94,6 @@ document.addEventListener("DOMContentLoaded", function() {
     let msg = `${degPMinute.value}º/${delay} ms`;
     showDisplay(msg, 0);
   };
+
+  alert('Modifique o delay para começar! \n https://github.com/wesleyBU/star-rotateJS');
 });
