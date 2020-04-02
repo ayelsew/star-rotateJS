@@ -2,4 +2,4 @@
 
 <p>Grande parte da lógica está em "javascript/start-rotate.js".</p>
 
-<p>Previzualização <a href="https://wesleybu.github.io/star-rotateJS/">Star Rotate JS</a></p>
+<p>Previzualização <a href="https://ayelsew.github.io/star-rotateJS/">Star Rotate JS</a></p>
